@@ -1,0 +1,13 @@
+.error-template {
+  text-align: center;
+}
+
+#not-found {
+  position: fixed;
+
+  top: 0;
+  margin-top: 15%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
