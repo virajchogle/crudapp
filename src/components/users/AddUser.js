@@ -20,7 +20,7 @@ const AddUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.post("http://localhost:3003/users", user);
+    await axios.post("https://my-json-server.typicode.com/virajchogle/crudapp-db/users", user);
     navigate('/');
   }
 

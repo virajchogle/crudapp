@@ -21,7 +21,7 @@ const ViewUser = () => {
   };
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:3003/users/${id}`);
+    const result = await axios.get(`https://my-json-server.typicode.com/virajchogle/crudapp-db/users/${id}`);
     console.log(result);
     setUser(result.data);
   };
